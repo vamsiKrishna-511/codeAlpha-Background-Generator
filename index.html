@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Background Generator</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Background Generator</h1>
+
+        <input type="color" class="color-input" id="color1" value="#000000">
+        <input type="color" class="color-input" id="color2" value="#ffffff">
+
+        <div>
+            <span>Generated Background:</span>
+            <div class="color-preview" id="color-preview"></div>
+            <span class="color-code" id="color-code"></span>
+        </div>
+
+        <button class="btn-generate" onclick="generateBackground()">Generate</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
